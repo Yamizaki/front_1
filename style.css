@@ -1,3 +1,8 @@
 :root {
-  --primary-color: #000000;
+  --brackground-color: black;
+  --primary-color: orange;
+  --secundary-color: rgb(10, 151, 10);
+  --brackground-secundary-color: rgb(7, 97, 7);
+  --color-text1: white;
+  --color-text2: gray;
 }
