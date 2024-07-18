@@ -18,8 +18,42 @@ body{
   color: var(--color-text2);
 }
 
+header{
+  margin-top: 50px;
+  color: var(--color-text1);
+  text-align: center;
+}
 
+.container__criptos{
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  margin: 20px 0 20px 0;
+}
 
+.container__criptos div{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  color: black;
+  font-weight: 800;
+}
+
+.container__criptos div img{
+  width:"16px";
+}
+
+header p {
+  color: var(--color-text2);
+  font-size: 18px;
+}
+
+.container__criptos p {
+  color: black;
+}
 
 
 
