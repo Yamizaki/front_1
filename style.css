@@ -13,8 +13,17 @@
   box-sizing: border-box;
 }
 
-body {
+body{
   background-color: var(--brackground-color);
+  color: var(--color-text2);
+}
+
+/* ------------------- CONTENEDOR GENERAL --------------------------------- */
+.contenedor__general{
+  display: flex;
+  justify-content: center;
+  gap:50px;
+  margin: 150px;
 }
 
 /* ------------------- SECCION 2 --------------------------------- */
@@ -82,30 +91,28 @@ body {
   width: 100px;
 }
 
-*{
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
 
-body{
-  background-color: var(--brackground-color);
-  color: var(--color-text2);
-}
 
+
+
+/* Header */
 header{
   margin-top: 50px;
   color: var(--color-text1);
   text-align: center;
 }
+header p {
+  color: var(--color-text2);
+  font-size: 18px;
+}
 
+/* Contenedor criptos con img */
 .container__criptos{
   justify-content: center;
   display: flex;
   gap: 30px;
   margin: 20px 0 20px 0;
 }
-
 .container__criptos div{
   display: flex;
   gap: 5px;
@@ -116,16 +123,9 @@ header{
   color: black;
   font-weight: 800;
 }
-
 .container__criptos div img{
   width:"16px";
 }
-
-header p {
-  color: var(--color-text2);
-  font-size: 18px;
-}
-
 .container__criptos p {
   color: black;
 }
