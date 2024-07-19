@@ -4,5 +4,80 @@
   --secundary-color: rgb(10, 151, 10);
   --brackground-secundary-color: rgb(7, 97, 7);
   --color-text1: white;
-  --color-text2: gray;
+  --color-text2: rgb(70, 68, 68);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--brackground-color);
+}
+
+/* ------------------- SECCION 2 --------------------------------- */
+
+.section_2 {
+  display: flex;
+  flex-direction: column;
+  width: 52%;
+}
+
+.section_2 .subtitulo {
+  color: var(--color-text2);
+  font-size: 13px;
+  font-weight: bold;
+}
+
+/* ------ moneda ----------- */
+
+.sector_moneda {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px 20px 10px 20px;
+  gap: 10px;
+}
+
+.sector_moneda input {
+  background-color: var(--brackground-color);
+  width: 270px;
+}
+
+.input_container {
+  display: flex;
+  /*  border: 1px solid red; */
+  width: 380px;
+  height: 64px;
+  border-radius: 15px;
+  overflow: auto;
+}
+
+.input_container_simbolo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--primary-color);
+  font-size: 24px;
+  background-color: var(--color-text2);
+  width: 40px;
+}
+
+/* ------- comision ------ */
+
+.sector_comision {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 20px 20px 20px;
+  gap: 10px;
+}
+
+.sector_comision_inputs {
+  display: flex;
+}
+
+.sector_comision_inputs input {
+  width: 100px;
 }
