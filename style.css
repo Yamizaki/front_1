@@ -3,8 +3,8 @@
 :root {
   --brackground-color: black;
   --primary-color: orange;
-  --secundary-color: rgb(10, 151, 10);
-  --brackground-secundary-color: rgb(7, 97, 7);
+  --secundary-color: rgb(63, 250, 63);
+  --brackground-secundary-color: rgba(7, 97, 7, 0.555);
   --color-text1: white;
   --color-text2: rgb(70, 68, 68);
 }
@@ -98,4 +98,123 @@ body {
 
 .sector_comision_inputs input {
   width: 100px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: var(--brackground-color);
+  color: var(--color-text2);
+}
+
+header{
+  margin-top: 50px;
+  color: var(--color-text1);
+  text-align: center;
+}
+
+.container__criptos{
+  justify-content: center;
+  display: flex;
+  gap: 30px;
+  margin: 20px 0 20px 0;
+}
+
+.container__criptos div{
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  padding: 5px 10px 5px 10px;
+  border-radius: 50px;
+  background-color: var(--primary-color);
+  color: black;
+  font-weight: 800;
+}
+
+.container__criptos div img{
+  width:"16px";
+}
+
+header p {
+  color: var(--color-text2);
+  font-size: 18px;
+}
+
+.container__criptos p {
+  color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container__resultado{
+  border: 1px solid var(--color-text2);
+  color: var(--color-text1);
+  border-radius: 10px;
+  width: fit-content;
+  padding: 15px;
+
+}
+
+.container_btn{
+  display: flex;
+  justify-content: center;
+}
+
+.btn__conectar{
+  margin-top: 20px;
+  background-color: var(--primary-color);
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+}
+
+.container__info{
+  margin-top: 20px;
+  color: var(--color-text2);
+  display: flex;
+  flex-direction: column;
+  
+}
+
+.container__precios{
+  color: var(--secundary-color);
+  background-color: var(--brackground-secundary-color);
+  width: fit-content;
+  padding: 5px 8px 5px 8px;
+  border-radius: 10px;
+}
+
+.container__info2{
+  margin-top: 15px;
+  color: var(--color-text2);
+  display: flex;
+  gap: 50px;  
 }
