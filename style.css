@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
 
 :root {
-  --brackground-color: black;
-  --primary-color: orange;
-  --secundary-color: rgb(63, 250, 63);
-  --brackground-secundary-color: rgba(7, 97, 7, 0.555);
-  --color-text1: white;
-  --color-text2: rgb(70, 68, 68);
+  --brackground-color: rgb(28, 29, 28);
+  --primary-color: rgb(0, 255, 157);
+  --secundary-color: rgba(0, 0, 0, 0.877);
+  --brackground-secundary-color: rgba(0, 255, 157, 0.568);
+  --color-text1: rgb(254, 255, 255);
+  --color-text2: rgb(100, 95, 95);
 }
 
 * {
