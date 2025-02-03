@@ -25,8 +25,15 @@ body {
 .contenedor__general {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 5px;
   margin: 60px 150px;
+}
+
+@media (max-width: 1024px) {
+  .contenedor__general {
+    flex-wrap: wrap;
+  }
 }
 
 
@@ -43,9 +50,9 @@ body {
 /* ------------------- SECCION 2 --------------------------------- */
 
 .section_2 {
+  flex:1;
   display: flex;
   flex-direction: column;
-  width: 61%;
 }
 
 .section_2 .subtitulo {
@@ -57,6 +64,7 @@ body {
 /* ------ moneda ----------- */
 
 .sector_moneda {
+  flex: 1;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -109,6 +117,7 @@ body {
 /* ------- comision ------ */
 
 .sector_comision {
+  flex:1;
   display: flex;
   justify-content: space-between;
   padding: 0px 20px 20px 20px;
@@ -160,6 +169,7 @@ header p {
 .container__criptos {
   justify-content: center;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   margin: 20px 0 20px 0;
 }
@@ -221,4 +231,20 @@ header p {
   color: var(--color-text2);
   display: flex;
   gap: 50px;
+}
+
+
+.section_resultado{
+  flex:1;
+}
+
+.text-info{
+  padding: 15px;
+}
+.title{
+  padding: 20px;
+}
+
+option{
+  color: black;
 }
