@@ -80,6 +80,9 @@ body {
   color: var(--color-text1);
   font-size: 20px;
 }
+input:focus {
+  outline: none;
+}
 
 .input_container {
   display: flex;
@@ -247,4 +250,50 @@ header p {
 
 option{
   color: black;
+}
+
+.container__crypto__price{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--color-text2);  
+  border-radius: 10px;
+  margin: 10px 0 10px 0;
+  color: white;
+  gap:5px;
+}
+.container__crypto__price img{
+  width: 15%;
+}
+
+.padding__img{
+  padding: 10px;
+}
+
+/* Para Webkit (Chrome, Safari, Edge) */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+  background-color: transparent !important; /* Mantiene el fondo transparente */
+}
+
+/* Para algunos navegadores que aplican efectos de autocompletado */
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  background-color: transparent !important;
+  -webkit-box-shadow: 0 0 0px 1000px white inset !important; /* Mantiene el fondo blanco */
+  box-shadow: 0 0 0px 1000px white inset !important;
+}
+
+input[type="number"] {
+  border: none;
+  outline: none;
+  background: transparent; /* Opcional: elimina el fondo */
+  font-size: 16px; /* Ajusta el tamaño de texto si es necesario */
 }
